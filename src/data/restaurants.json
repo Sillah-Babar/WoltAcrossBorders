@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "name": "City grill Ilmarinenkatu",
+    "description": "Grilled delicacies for e... • Sponsored",
+    "deliveryTime": "20-30 min",
+    "shipping": "0,00 €",
+    "rating": 8.0,
+    "badge": "15% discount (over €15)",
+    "wPlus": true,
+    "image": "🍖"
+  },
+  {
+    "id": 2,
+    "name": "The Chicken & Waffles C...",
+    "description": "Discover the dish you ... • Sponsored",
+    "deliveryTime": "30-40 min",
+    "shipping": "0,00 €",
+    "rating": 7.6,
+    "badge": "14 days with 0€ shipping fee",
+    "wPlus": true,
+    "image": "🍗"
+  },
+  {
+    "id": 3,
+    "name": "McDonald's Jyväskylä Jy...",
+    "description": "I'm lovin' it",
+    "deliveryTime": "20-30 min",
+    "shipping": "0,00 €",
+    "rating": 8.2,
+    "badge": "14 days with 0€ shipping fee",
+    "wPlus": true,
+    "image": "🍔"
+  },
+  {
+    "id": 4,
+    "name": "Pizzeria Maria",
+    "description": "Legendary pizzas and kebabs",
+    "deliveryTime": "40-50 min",
+    "shipping": "0,00 €",
+    "rating": 8.8,
+    "badge": "14 days with 0€ shipping fee",
+    "wPlus": true,
+    "image": "🍕"
+  },
+  {
+    "id": 5,
+    "name": "Taco Bell Jyvaskyla",
+    "description": "Mexican fast food restaurant",
+    "deliveryTime": "20-30 min",
+    "shipping": "0,00 €",
+    "rating": 8.8,
+    "badge": "Free shipping",
+    "wPlus": true,
+    "image": "🌮"
+  },
+  {
+    "id": 6,
+    "name": "Burger King Jyvaskyla",
+    "description": "Flame-grilled hamburgers",
+    "deliveryTime": "15-25 min",
+    "shipping": "0,00 €",
+    "rating": 8.8,
+    "badge": "14 days with 0€ shipping fee",
+    "wPlus": true,
+    "image": "🍔"
+  },
+  {
+    "id": 7,
+    "name": "Subway Jyväskylä Kaupp...",
+    "description": "The best moments are ahead.",
+    "deliveryTime": "15-25 min",
+    "shipping": "0,00 €",
+    "rating": 8.8,
+    "badge": "14 days with 0€ shipping fee",
+    "wPlus": true,
+    "image": "🥪"
+  },
+  {
+    "id": 8,
+    "name": "Villentorn Café and Restaura...",
+    "description": "For sweet and salty hunger!",
+    "deliveryTime": "30-40 min",
+    "shipping": "0,00 €",
+    "rating": 9.0,
+    "badge": "14 days with 0€ shipping fee",
+    "wPlus": true,
+    "image": "🍕"
+  }
+]
+
