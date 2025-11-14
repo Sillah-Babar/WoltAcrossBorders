@@ -1,4 +1,4 @@
-# Jucntion - Food Delivery App
+# Junction - Food Delivery App
 
 A modern food delivery and restaurant discovery application inspired by Wolt, featuring a dark theme UI.
 
