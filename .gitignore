@@ -22,4 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv
+*.log
+.DS_Store
+service-account-key.json
+*.json
+!package.json
 

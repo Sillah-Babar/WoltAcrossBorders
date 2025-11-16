@@ -1,0 +1,11 @@
+flask
+flask-cors
+google-cloud-aiplatform
+vertexai
+pinecone
+openai
+python-dotenv
+supabase
+google-genai
+Pillow
+

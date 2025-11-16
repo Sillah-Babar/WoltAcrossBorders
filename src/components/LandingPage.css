@@ -1,0 +1,162 @@
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: calc(100vh - 80px);
+  padding: 20px;
+  margin-top: 80px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.landing-3d {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Bottom glow effect - full height */
+.bottom-glow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center center,
+    rgba(74, 158, 255, 0.4) 0%,
+    rgba(74, 158, 255, 0.2) 40%,
+    transparent 80%
+  );
+  pointer-events: none;
+  z-index: 1;
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scaleY(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleY(1.1);
+  }
+}
+
+/* Landing actions */
+.landing-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 2;
+  position: relative;
+}
+
+.landing-button {
+  padding: 16px 48px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: visible;
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.sign-in-landing,
+.sign-up-landing {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid rgba(255, 105, 180, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.sign-in-landing::before,
+.sign-up-landing::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    #4a9eff 0%,
+    #8b5cf6 50%,
+    #ff69b4 100%
+  );
+  z-index: -1;
+  opacity: 0.5;
+  filter: blur(4px);
+}
+
+.sign-in-landing:hover,
+.sign-up-landing:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 105, 180, 0.6);
+}
+
+.sign-in-landing:hover::before,
+.sign-up-landing:hover::before {
+  opacity: 0.8;
+  filter: blur(6px);
+}
+
+@media (max-width: 1024px) {
+  .landing-content {
+    padding: 15px;
+  }
+
+  .landing-actions {
+    gap: 16px;
+  }
+
+  .landing-button {
+    padding: 14px 36px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-content {
+    padding: 10px;
+  }
+
+  .landing-actions {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px 0;
+  }
+
+  .landing-button {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 14px 28px;
+  }
+}
+

@@ -4,6 +4,7 @@ A modern food delivery and restaurant discovery application inspired by Wolt, fe
 
 ## Features
 
+- **3D Landing Page** - Interactive 3D character model viewer
 - Dark-themed, modern interface
 - Restaurant discovery
 - Category browsing with horizontal scroll
@@ -43,5 +44,12 @@ npm run preview
 
 - React 18
 - Vite
+- Three.js & React Three Fiber (for 3D rendering)
 - CSS3
+
+## 3D Model
+
+The landing page displays a 3D character model loaded from `/public/models/character.obj`. You can replace this file with your own OBJ model. The model is rendered using Three.js with interactive controls (rotate, zoom, pan).
+
+**Note:** The current OBJ file is a placeholder. Replace `/public/models/character.obj` with your complete OBJ file for the full character model.
 

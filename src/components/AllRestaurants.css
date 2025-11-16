@@ -35,3 +35,15 @@
   }
 }
 
+.loading-message,
+.error-message {
+  text-align: center;
+  padding: 40px;
+  color: #888;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #ff6b6b;
+}
+
